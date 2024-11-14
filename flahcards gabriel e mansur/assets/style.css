@@ -1,7 +1,7 @@
 :root {
     --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --card-front-color: #39a010ad;
+    --card-back-color: 	#5C4033;
 }
 footer {
     background-color: black;
@@ -19,8 +19,11 @@ footer p {
 }
     
 body {
-    background:url(img/bg-desktop.webp);
-    font-family: Bai Jamjuree;
+    background:url(img/thumb-1920-514481.jpg) center fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Bk' , sans-serif;
     }
         
 
@@ -37,7 +40,8 @@ body {
                     background-color: var(--card-front-color);
                     height: 100%;
                     transform-style: preserve-3d;
-                    transition: transform 300ms ease-in-out;
+                    transition: 300ms ;
+                    transform: ease-in-out
                 }
                     
 .cartao__conteudo h3 {
